@@ -1,3 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    padding:30px;
+    text-align: left;
+    background: rgb(132, 201, 247);
+    color: aliceblue;
+}
+
+nav {
+  width: 100%;
+  padding: 100px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: right;
+  text-decoration: underline;
+    
+    
 }
