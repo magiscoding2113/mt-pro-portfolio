@@ -3,15 +3,33 @@
 }
 
 body {
+    background-color: rgb(234, 255, 234);
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    color: black;
+    
 }
 
 header {
     padding:30px;
     text-align: left;
-    background: rgb(132, 201, 247);
-    color: aliceblue;
+    background: rgb(65, 192, 112);
+    color: black;
+    
+    
+}
+
+.container ul {
+    margin-top: -5%;
+    color: black;
+    
+}
+
+.subtitle {
+    text-align: right;
+    margin-top: -5%;
+    text-align: center;
 }
 
 nav {
@@ -21,6 +39,35 @@ nav {
   border: 1px solid black;
   text-align: right;
   text-decoration: underline;
+  margin-top: -1%;
     
     
+}
+
+
+.containerwork {
+    width: 1000px;
+    border: 10px solid rgb(74, 134, 74);
+    padding: 100px;
+    margin: 80px;
+    flex-wrap: wrap;
+   
+
+    
+}
+
+.containerwork1, .containerwork2 {
+    width: 300px;
+    border: 10px dotted rgb(74, 134, 74);
+    padding: 60px;
+    margin: 80px;
+    
+}
+
+
+
+
+
+.footer{
+    text-align: right;
 }
