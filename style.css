@@ -1,56 +1,108 @@
 * {
     box-sizing: border-box;
+
+
+}
+
+
+header {
+    text-align: right;
+    background:rgb(65, 192, 112);
+    color: black;
+    text-transform: uppercase;
+    width:90%;
+    padding: 90px;
+    height: 200px;
+    border: 1px solid black;
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 1%;
+   
+}
+
+
+.container li {
+    display: inline;
+   list-style-type: none;
+    margin-bottom: 0%;
+    width: 50%;
+    padding: 100px;
 }
 
 body {
     background-color: rgb(234, 255, 234);
-    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 0%;
     color: black;
-    
+
 }
 
-header {
-    padding:30px;
+/*h1 {  
+    width: 100%;
+    padding: 90px;
+    height: 200px;
+    border: 1px solid black;
     text-align: left;
-    background: rgb(65, 192, 112);
-    color: black;
-    
-    
-}
+    margin-top: 1%;
+}*/
 
-.container ul {
-    margin-top: -5%;
-    color: black;
-    
-}
+
+
+
 
 .subtitle {
     text-align: right;
-    margin-top: -5%;
-    text-align: center;
+    margin-top: -10%;
+    text-align: right;
+    margin-right: 30%;
+    text-transform:uppercase;
+    font-style: italic;
+    
 }
 
-nav {
-  width: 100%;
-  padding: 100px;
-  height: 200px;
-  border: 1px solid black;
-  text-align: right;
-  text-decoration: underline;
-  margin-top: -1%;
+.work {
+    background-image: url(https://lh3.googleusercontent.com/X8lnGCCs6E0k5c1E3v8IjdRaHZp_6rLQ60IigJgQKTC1ne8kKiC352B-O2Jl6LkQUYid-eurTmsa4p43XmAVZLKAlrHe1QtPDpIV1lNHFnbT0US-LqQigm12nN6J21CxXiZaoNij5Q=w2400);
+    position: absolute;
+    height: auto;
+    width: 80%;
+    opacity: 0.9;
+}
+
     
     
+
+
+h3 { 
+    text-align: left;
+
+}
+
+p {
+    text-align: center;
+    margin-left: 50px;
+}
+
+/*:hover  {
+    background-color: rgb(108, 243, 142);
+}*/
+
+.aboutme {
+    text-align: left;
+    margin-top: 10%;
+    flex-wrap: wrap;
+
 }
 
 
 .containerwork {
     width: 1000px;
-    border: 10px solid rgb(74, 134, 74);
+    border: 10px solid rgb(65, 192, 112);
     padding: 100px;
     margin: 80px;
     flex-wrap: wrap;
+    
+    
+    
    
 
     
@@ -58,10 +110,11 @@ nav {
 
 .containerwork1, .containerwork2 {
     width: 300px;
-    border: 10px dotted rgb(74, 134, 74);
+    border: 10px dotted rgb(65, 192, 112);
     padding: 60px;
     margin: 80px;
-    
+    flex-wrap: wrap;
+
 }
 
 
