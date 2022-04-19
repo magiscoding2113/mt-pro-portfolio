@@ -16,6 +16,16 @@ a {
  font-weight: 100;
  margin-top: 1%;
  padding: 3%;
+ font-size: 200px;
+}
+
+p{
+    font-weight: 500;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    font-size: x-large;
+    text-align: center;
+    
 }
 h1, .aboutme {
     margin-top: 1%;
