@@ -1,144 +1,66 @@
 * {
-    box-sizing: border-box;
+    background-color: white;
 }
-
-
-header {
-    text-align: right;
-    background:rgb(87, 165, 111);
-    color: black;
-    text-transform: uppercase;
-    width:90%;
-    padding: 90px;
-    height: 200px;
-    border: 1px solid black;
-    text-align: left;
-    margin-top: 1%;
-    margin-left: 1%;
+.navbar {
+    background-color: white;
    
 }
 
-
-
-.container li {
-    display: inline;
-   list-style-type: none;
-    margin-bottom: 0%;
-    width: 50%;
-    padding: 100px;
-}
-
-body {
-    background-color: rgb(217, 252, 228);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0%;
+a {
     color: black;
-
+    
+    font-weight: 100;
 }
 
-/*h1 {  
-    width: 100%;
-    padding: 90px;
-    height: 200px;
-    border: 1px solid black;
-    text-align: left;
+#intro {
+ font-weight: 100;
+ margin-top: 1%;
+ padding: 3%;
+}
+h1, .aboutme {
     margin-top: 1%;
-}*/
-
-
-
-
-
-.subtitle {
-    margin-top: -10%;
-    text-align: right;
-    margin-right: 30%;
-    text-transform:uppercase;
-    font-style: italic;
-}  
-
-
-.work {
-  background-image: url(https://lh3.googleusercontent.com/X8lnGCCs6E0k5c1E3v8IjdRaHZp_6rLQ60IigJgQKTC1ne8kKiC352B-O2Jl6LkQUYid-eurTmsa4p43XmAVZLKAlrHe1QtPDpIV1lNHFnbT0US-LqQigm12nN6J21CxXiZaoNij5Q=w2400);
-   position: absolute;
-    height: auto;
-    width: 80%;
-    opacity: 1.0;
+    padding: 1.5%;
+    font-weight: 100;
 }
 
-    
-    
-
-
-h3 { 
-    text-align: left;
-
-}
-
-p {
-    text-align: center;
-    margin-left: 50px;
-}
-
-.containerwork:hover, .containerwork1:hover, .containerwork2:hover {
-    background-color: rgb(223, 247, 229);
-}
-
-.aboutme {
-    text-align: left;
-    margin-top: 10%;
-    flex-wrap: wrap;
-
+.sum {
+    padding: 1.5%;
+    font-weight: 100;
+    margin-top: 1%;
 }
 
 
-.containerwork {
-    width: 1000px;
-    border: 10px solid rgb(65, 192, 112);
-    padding: 100px;
-    margin: 80px;
-    flex-wrap: wrap;
-    
-    
-    
+.work, h2 {
+    padding: 1.5%;
+    font-weight: 100;
+}
+ h3, li {
+    padding: 2.5%;
+    font-weight: 100;
+    list-style: none;
+
+ }
+
+ img {
+     display: block;
+     border-radius: 8px;
+     margin-left:70%;
+     border: solid 8px black;
    
-
-    
-}
-
-.span, .containerwork1, .containerwork2 {
-    width: 300px;
-    border: 10px dotted rgb(65, 192, 112);
-    padding: 60px;
-    margin: 80px;
-    flex-wrap: wrap;
-    display: inline-block;
-
-}
+ }
 
 
 
 
 
-.footer li {
-    text-align: center;
-    padding: 10px;
-    
-}
-
-.column {
-    float: left;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
 
 
-@media screen and (max-width: 482px) {
-    .column {
-      width: 100%;
-    }
-  }
+
+
+
+
+
+
+
+
+
