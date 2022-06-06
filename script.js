@@ -1,3 +1,1 @@
-//document.getElementById("about").onclick = function(){
-    //document.getElementById("about").style.display ="none";
-//}
+document.querySelector(".navbar-toggler").addEventListener("click", function(e){ document.querySelector("#navbarNavAltMarkup").classList.toggle("show"); });
